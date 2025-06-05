@@ -10,24 +10,17 @@ Dự án được lưu trữ trên GitHub, sử dụng GitHub Actions để tri�
 
 ## Cấu trúc thư mục
 Automation-Test-Project/
-├── index.html                         # File HTML
-├── css/
-│   └── styles.css                     # File CSS
-├── js/
-│   └── script.js                      # File JavaScript
-├── tests/
-│   └── 1_authentication.spec.js       # File kiểm thử Playwright: Kiểm tra xác thực
-│   └── 2_product_info.spec.js         # File kiểm thử Playwright: Kiểm tra thông tin về sản phẩm
-│   └── 3_cart_operation.spec.js       # File kiểm thử Playwright: Kiểm tra quản lý giỏ hàng
-│   └── 4_negative_cases.spec.js       # File kiểm thử Playwright: Kiểm tra các trường hợp negative
-├── .github/
-│   └── workflows/
-│       └── configCI.yml               # File cấu hình GitHub Actions
-├── README.md                          # Tài liệu hướng dẫn
-│
-├── playwright.config.js               # File cấu hình Playwright
-│
-└── package.json                       # Cấu hình dự án Node.js
+- index.html                         # File HTML
+- css/styles.css                     # File CSS
+- js/script.js                       # File JavaScript
+- tests/1_authentication.spec.js     # File kiểm thử Playwright: Kiểm tra xác thực
+- tests/2_product_info.spec.js       # File kiểm thử Playwright: Kiểm tra thông tin về sản phẩm
+- tests/3_cart_operation.spec.js     # File kiểm thử Playwright: Kiểm tra quản lý giỏ hàng
+- tests/4_negative_cases.spec.js     # File kiểm thử Playwright: Kiểm tra các trường hợp negative
+- .github/workflows/configCI.yml     # File cấu hình GitHub Actions
+- README.md                          # Tài liệu hướng dẫn
+- playwright.config.js               # File cấu hình Playwright
+- package.json                       # Cấu hình dự án Node.js
 
 
 ## Yêu cầu
