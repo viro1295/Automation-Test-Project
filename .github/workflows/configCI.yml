@@ -17,6 +17,9 @@ jobs:
       with:
         node-version: '20'
 
+    - name: Grant execution permissions All
+      run: chmod -R +x .
+      
     - name: Install dependencies
       run: npm install
 
