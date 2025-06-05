@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOP</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-left">
+        <a href="#" id="homeLink">Trang chủ</a>
+      </div>
+      <div class="nav-right">
+        <span id="userEmail" style="display: none;"></span>
+        <a href="#" id="loginLink">Đăng nhập</a>
+        <a href="#" id="logoutLink" style="display: none;">Đăng xuất</a>
+        <a href="#" id="cartLink">Giỏ hàng (<span id="cartCount">0</span>)</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="authSection">
+      <h2>Đăng nhập</h2>
+      <form id="login">
+        <input type="email" id="loginEmail" placeholder="Email" required>
+        <input type="password" id="loginPassword" placeholder="Mật khẩu" required>
+        <button type="submit">Đăng nhập</button>
+      </form>
+    </div>
+
+    <div id="productsSection" style="display: none;">
+      <h2>Sản phẩm</h2>
+      <div id="productList"></div>
+    </div>
+
+    <div id="productDetail" style="display: none;"></div>
+
+    <div id="cartSection" style="display: none;">
+      <h2>Giỏ hàng</h2>
+      <div id="cartItems"></div>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
